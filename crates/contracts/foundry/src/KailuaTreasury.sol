@@ -42,7 +42,7 @@ contract KailuaTreasury is KailuaTournament, IKailuaTreasury {
         uint256 _proposalOutputCount,
         uint256 _outputBlockSpan,
         GameType _gameType,
-        OptimismPortal2 _optimismPortal,
+        DisputeGameFactory _disputeGameFactory,
         Claim _rootClaim,
         uint64 _l2BlockNumber
     )
@@ -54,7 +54,7 @@ contract KailuaTreasury is KailuaTournament, IKailuaTreasury {
             _proposalOutputCount,
             _outputBlockSpan,
             _gameType,
-            _optimismPortal
+            _disputeGameFactory
         )
     {
         ROOT_CLAIM = _rootClaim;

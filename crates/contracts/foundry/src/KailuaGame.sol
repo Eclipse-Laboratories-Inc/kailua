@@ -57,7 +57,7 @@ contract KailuaGame is KailuaTournament {
             _kailuaTreasury.PROPOSAL_OUTPUT_COUNT(),
             _kailuaTreasury.OUTPUT_BLOCK_SPAN(),
             _kailuaTreasury.GAME_TYPE(),
-            _kailuaTreasury.OPTIMISM_PORTAL()
+            _kailuaTreasury.DISPUTE_GAME_FACTORY()
         )
     {
         GENESIS_TIME_STAMP = _genesisTimeStamp;
